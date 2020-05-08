@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #dce0cd;
+}
+
+#contenedor {
+  width: 80%;
+  margin: auto;
+  height: auto;
+  /*background: #a1ca0e;*/
+}
+#contenedor header {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+#contenedor header h1 {
+  /*color: blueviolet;*/
+  margin-bottom: 10px;
+  color: #05396b;
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+}
+#contenedor header #principal {
+  list-style: none;
+  /*background: #05396b;*/
+  background-image: url(https://www.10wallpaper.com/wallpaper/2560x1440/1807/Blue_particle_tech_abstract_art_background_2560x1440.jpg);
+  color: white;
+  border-radius: 10px;
+  font-family: 'Sen', sans-serif;
+}
+#contenedor header #principal li {
+  display: inline-block;
+  position: relative;
+}
+#contenedor header #principal li a {
+  display: block;
+  padding: 15px 20px;
+  color: orange;
+
+  text-decoration: none;
+}
+#contenedor header #principal li a:hover {
+  background: white;
+  transition: all 0.5s;
+  color: #389583;<
+}
+#contenedor header #principal li:hover #secundario {
+  display: block;
+}
+#contenedor header #secundario {
+  position: absolute;
+  width: 100%;
+  background: #05396b;
+  display: none;
+}
+#contenedor header #secundario li {
+  width: 100%;
+}
+#contenedor header #secundario li a {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  font-family: "Open sans";
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=menu.css.map */
