@@ -1,7 +1,0 @@
-
-                Nombre                    Carnet
--------------------------------------------------
-1. Jose Alejandro Ibañez Martinez-------->IM18002
-2. Carlos Ivan Romero Hernandez---------->RH18030
-3. Carlos Alfonso Lemus Rodezno---------->LR18001
-4. Edwin Elias Valladares Portillo------->VP18007
